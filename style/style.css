@@ -3,6 +3,7 @@ background-image: url("images/starsandocean.jpg");
 background-repeat: no-repeat;
 background-size: 100%;
 font-family: 'Montserrat', sans-serif;
+background-attachment: fixed;
 
 }
 
@@ -15,6 +16,16 @@ h1 {
     overflow: hidden;
 }
 
+h2 {
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 100px;
+    margin: 75px, 20px;
+    overflow: hidden;
+}
+
+
 p {
     color: #ffffff;
     font-size: 1.2em;
@@ -26,7 +37,7 @@ p {
 
 .title {
     position: fixed;
-    top: 0;
+    top: 20px;
     width: 100%;
     padding: 15px;
     position: sticky;
@@ -76,4 +87,13 @@ li img {
     position: relative; top: -5px;
     
     
+}
+
+.picofdrew {
+    width: auto;
+    float: left;
+    
+}
+.info {
+    width: auto;
 }
