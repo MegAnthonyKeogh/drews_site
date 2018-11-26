@@ -1,0 +1,79 @@
+body {
+background-image: url("images/starsandocean.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 100px;
+    margin: 75px, 20px;
+    overflow: hidden;
+}
+
+p {
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 200%;
+    margin: 50px;
+
+}
+
+.title {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    position: sticky;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    position: fixed;
+    top: 150px;
+    width: 100%;
+    position: sticky;
+}
+
+li {
+    float: right;
+    padding-top: 10px;
+   
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    
+    transition: all .2s ease-in-out;
+    transform: scale(1.5);
+}
+
+.active {
+    color: #33FFBD;
+}
+
+li img {
+    height: 25px;
+    width: 25px;
+    margin-right: 100px;
+    position: relative; top: -5px;
+    
+    
+}
